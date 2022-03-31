@@ -1,0 +1,35 @@
+{
+    "name": "restfull",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Roberto-1998/RESTfull.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Roberto-1998/RESTfull/issues"
+    },
+    "homepage": "https://github.com/Roberto-1998/RESTfull#readme",
+    "dependencies": {
+        "awilix": "^7.0.1",
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "express-async-errors": "^3.1.1",
+        "helmet": "^5.0.2",
+        "jsonwebtoken": "^8.5.1",
+        "memory-cache": "^0.2.0",
+        "sequelize": "^6.17.0",
+        "sequelize-cli": "^6.4.1",
+        "swagger-ui-express": "^4.3.0"
+    }
+}
